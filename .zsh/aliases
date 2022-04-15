@@ -1,0 +1,26 @@
+# list command
+alias ls='ls -Fh --color=auto --group-directories-first'
+alias la='ls -A'
+alias ll='ls -l'
+alias lla='ls -Al'
+alias lr='ls -R'
+
+# change directory command
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# common commands
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias ln='ln -iv'
+alias mkdir='mkdir -v'
+alias rm='rm -i'
+alias rmf='rm -rf'
+
+# shortcuts
+alias c='clear'
+alias g='git'
+alias v='nvim'
+
+# bookmarks
+#alias pro='cd ~/Documents/coding/'

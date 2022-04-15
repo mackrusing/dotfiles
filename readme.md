@@ -1,3 +1,2 @@
-# .dotfiles
+# dotfiles
 
-![terminals](./images/terminals.png)

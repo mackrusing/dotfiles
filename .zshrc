@@ -10,7 +10,7 @@ zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}
 autoload -Uz compinit && compinit
 
 # prompt
-source ~/.zsh/pure
+source ~/.zsh/prompt
 
 # aliases
 source ~/.zsh/aliases

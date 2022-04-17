@@ -1,3 +1,4 @@
+fpath+=$HOME/.pure
 autoload -U promptinit; promptinit
 
 # working directory and user@host
@@ -27,4 +28,3 @@ zstyle :prompt:pure:prompt:error color red
 
 prompt pure
 
-fpath+=$HOME/.pure

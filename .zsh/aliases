@@ -21,6 +21,7 @@ alias rmf='rm -rf'
 alias c='clear'
 alias g='git'
 alias v='nvim'
+alias q='exit'
 
 # bookmarks
 #alias pro='cd ~/Documents/coding/'

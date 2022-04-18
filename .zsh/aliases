@@ -1,9 +1,17 @@
 # list command
-alias ls='ls -Fh --color=auto --group-directories-first'
-alias la='ls -A'
-alias ll='ls -l'
-alias lla='ls -Al'
-alias lr='ls -R'
+if [ "$OSTYPE" == linux-gnu ]; then
+  alias ls='ls -Fh --color=auto --group-directories-first'
+  alias la='ls -A'
+  alias ll='ls -l'
+  alias lla='ls -Al'
+  alias lr='ls -R'
+else
+  alias ls='gls -Fh --color=auto --group-directories-first'
+  alias la='gls -A'
+  alias ll='gls -l'
+  alias lla='gls -Al'
+  alias lr='gls -R'
+fi
 
 # change directory command
 alias ..='cd ..'

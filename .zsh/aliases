@@ -1,5 +1,3 @@
-#!/usr/bin/env zsh
-
 # list command
 if [[ "$OSTYPE" == linux-gnu ]]; then
   alias ls='ls -Fh --color=auto --group-directories-first'
@@ -9,10 +7,10 @@ if [[ "$OSTYPE" == linux-gnu ]]; then
   alias lr='ls -R'
 else
   alias ls='gls -Fh --color=auto --group-directories-first'
-  alias la='gls -A'
-  alias ll='gls -l'
-  alias lla='gls -Al'
-  alias lr='gls -R'
+  alias la='ls -A'
+  alias ll='ls -l'
+  alias lla='ls -Al'
+  alias lr='ls -R'
 fi
 
 # change directory command

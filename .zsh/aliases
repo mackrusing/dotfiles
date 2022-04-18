@@ -1,5 +1,7 @@
+#!/usr/bin/env zsh
+
 # list command
-if [ "$OSTYPE" == linux-gnu ]; then
+if [[ "$OSTYPE" == linux-gnu ]]; then
   alias ls='ls -Fh --color=auto --group-directories-first'
   alias la='ls -A'
   alias ll='ls -l'

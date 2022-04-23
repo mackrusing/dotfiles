@@ -24,12 +24,16 @@ alias ln='ln -iv'
 alias mkdir='mkdir -v'
 alias rm='rm -i'
 alias rmf='rm -rf'
+alias cat='bat'
 
 # shortcuts
 alias c='clear'
-alias g='git'
-alias v='nvim'
 alias q='exit'
+alias v='nvim'
+alias g='git'
+alias t='tmux'
 
-# bookmarks
-#alias pro='cd ~/Documents/coding/'
+# tmux
+alias tls='tmux ls'
+alias ta='tmux a -t'
+

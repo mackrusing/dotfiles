@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 repo_dir=$(pwd)
-home_dotfiles=".zsh .zshrc .editorconfig"
+home_dotfiles=".zsh .zshrc .editorconfig .gitconfig"
 config_dotfiles=".neofetch .nvim .tmux"
 
 # create backup folder

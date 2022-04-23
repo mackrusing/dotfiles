@@ -1,0 +1,17 @@
+[alias]
+  a = add
+  aa = add -A
+  b = branch 
+  ba = branch -a
+  c = commit -m
+  co = checkout
+  s = status -sb
+  lg = log --graph --pretty=oneline --abbrev-commit
+
+[user]
+	name = Mack Rusing
+  email = mackrusing@gmail.com
+
+[init]
+  defaultBranch = main
+

@@ -1,5 +1,6 @@
 " plugins
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 " indentation
@@ -28,7 +29,7 @@ set sidescrolloff=5 " keep 5 columns left & right of cursor
 filetype plugin on
 
 " ui
-" set laststatus=2
+"set laststatus=2
 set wildmenu " display command line completion as menu 
 set ruler " show cursor position
 set cursorline " highlight current cursorline
@@ -44,6 +45,9 @@ set nofoldenable " disable folding by default
 " misc
 set nocompatible " disable compatibility with vi
 set showmatch " show matching 
-set clipboard=unnamedplus   " use system clipboard
+set clipboard=unnamedplus " use system clipboard
 
+" custom colors
+hi clear CursorLine
+hi CursorLine ctermbg=Black
 

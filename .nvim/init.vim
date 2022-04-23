@@ -48,6 +48,6 @@ set showmatch " show matching
 set clipboard=unnamedplus " use system clipboard
 
 " custom colors
-hi clear CursorLine
-hi CursorLine ctermbg=Black
+" hi clear CursorLine
+" hi CursorLine ctermbg=Black
 

@@ -1,0 +1,6 @@
+# nvm
+export NVM_DIR="$HOME/.nvm"
+
+# local bin
+export PATH="$HOME/.local/bin:$PATH"
+

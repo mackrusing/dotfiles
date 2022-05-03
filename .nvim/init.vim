@@ -1,6 +1,7 @@
 " plugins
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
 call plug#end()
 
 " indentation
@@ -47,7 +48,14 @@ set nocompatible " disable compatibility with vi
 set showmatch " show matching 
 set clipboard=unnamedplus " use system clipboard
 
-" custom colors
-" hi clear CursorLine
-" hi CursorLine ctermbg=Black
+" colorscheme
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
+
+" use true color
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
 
